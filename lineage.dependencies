@@ -1,6 +1,13 @@
 [
   {
+    "remote": "altair-devices",
     "repository": "android_device_oneplus_sm8150-common",
     "target_path": "device/oneplus/sm8150-common"
+  },
+  {
+    "remote": "tm",
+    "repository": "proprietary_vendor_oneplus_guacamole",
+    "target_path": "vendor/oneplus/guacamole",
+    "revision": "lineage-23.0"
   }
 ]

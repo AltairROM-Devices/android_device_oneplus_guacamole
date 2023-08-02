@@ -12,10 +12,10 @@
     "revision": "13"
   },
   {
-    "remote": "lineage",
-    "repository": "android_kernel_oneplus_sm8150",
+    "remote": "altair",
+    "repository": "AltairROM-Devices/android_kernel_oneplus_sm8150",
     "target_path": "kernel/oneplus/sm8150",
-    "revision": "lineage-20"
+    "revision": "13"
   },
   {
     "remote": "tm",

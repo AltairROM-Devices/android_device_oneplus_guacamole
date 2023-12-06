@@ -933,4 +933,8 @@
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">false</bool>
 
+    <!-- Whether device has dash charging support -->
+    <bool name="config_hasDashCharger">true</bool>
+    <!-- Path to dash charging status file -->
+    <string name="config_oemFastChargerStatusPath">/sys/class/power_supply/battery/fastcharger</string>
 </resources>

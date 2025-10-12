@@ -15,6 +15,9 @@ $(call inherit-product, device/oneplus/guacamole/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit Google Apps core.
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_guacamole
 PRODUCT_DEVICE := guacamole

@@ -934,4 +934,7 @@
     <bool name="config_hasDashCharger">true</bool>
     <!-- Path to dash charging status file -->
     <string name="config_oemFastChargerStatusPath">/sys/class/power_supply/battery/fastcharger</string>
+
+    <!-- If true, the display will be shifted around in ambient mode. -->
+    <bool name="config_enableBurnInProtection">true</bool>
 </resources>
